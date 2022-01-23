@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: shopping-cart
+  config:
+    import: "optional:configserver:http://localhost:8888/config-server"
+
+
+
+
